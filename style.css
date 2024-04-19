@@ -25,7 +25,7 @@ button {
     position: relative;
   }
 
-/* pseudo class color change when hover */
+/* color change when hover */
 button:hover {
     background-color: #B4A6AB; 
     color: #B4A6AB;
