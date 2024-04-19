@@ -1,0 +1,71 @@
+/* Color */
+body {
+    align-items: center;
+    color: #765760; /* hex code */
+    background-color: #CDD5D1; /* rgb values */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Background */
+header {
+    color: #615055; /* blue */
+    font-size: 1cm;
+
+}
+
+nav{
+    display: inline-block;
+}
+
+/* dimensions of all three buttons*/
+button {
+    transition-duration: 0.4s;
+    width: 2in;
+    position: relative;
+  }
+
+/* pseudo class color change when hover */
+button:hover {
+    background-color: #B4A6AB; 
+    color: w#B4A6AB;
+  }
+
+h2{
+    color: #615055;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+
+/* Sizing */
+img {
+    width: 100%; /* relative unit */
+    max-width: 600px; /* max-width */
+    align-items: center;
+    position: static;
+}
+
+/* Layouts - Grid */
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+    }
+}
