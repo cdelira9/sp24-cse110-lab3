@@ -28,7 +28,7 @@ button {
 /* pseudo class color change when hover */
 button:hover {
     background-color: #B4A6AB; 
-    color: w#B4A6AB;
+    color: #B4A6AB;
   }
 
 h2{
